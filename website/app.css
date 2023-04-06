@@ -1,0 +1,49 @@
+body {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 36px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+p {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+.bigbig {
+	font-size: 100px;
+}
+
+.medium {
+    font-weight: normal;
+    font-size: 80px;
+}
+
+main {
+    margin: 50px auto;
+    max-width: 800px;
+    text-align: justify;
+  }
+  
+  main p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
