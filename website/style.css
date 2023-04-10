@@ -3,6 +3,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
+	background-color: rgb(176, 176, 176);
   }
   
   .container {
@@ -38,5 +39,16 @@ body {
 	font-weight: bold;
   }
   
-
+  .underline {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .svg-underline {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+  }
+  
+  
   
