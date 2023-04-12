@@ -5,6 +5,27 @@ body {
 	margin: 0;
 	background-color: rgb(176, 176, 176);
   }
+
+  .top-bar {
+	position:absolute;
+	top: 10px;
+	right: 40px;
+
+  }
+  
+  button {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: large;
+	background-color: rgb(176, 176, 176);
+	color: rgb(0, 0, 0);
+	padding: 10px 5px;
+	border: none;
+	border-radius: 0;
+	margin-left: 10px;
+	margin-top: 10px;
+  }
+
+
   
   .container {
 	font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +35,7 @@ body {
 	align-items: center;
 	width: 100%;
 	position: absolute;
-  	top: 50%;
+  	top: 80rem;
   	left: 50%;
  	transform: translate(-50%, -50%);
   	
@@ -73,7 +94,7 @@ body {
   }
   
   /* Personal paragraph */
-  .personal-paragraph {
+  p{
 	font-size: 1.2rem;
 	font-family: 'Times New Roman', Times, serif;
 	margin-top: 40px;
@@ -85,7 +106,54 @@ body {
   .highlight {
     background-color: rgba(131, 131, 131, 0.391);
 }
+
+/* Resume Section*/
+.resume-section{
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 30rem;
+text-align: center;
+margin-bottom: 30rem;
+}
+
+.resume-section h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 8rem;
+
+}
+
+.resume-section h2 {
+	margin-top: 0px;
+	font-size: 6rem;	
+}
+
+.buttons-container {
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+
+  }
   
+.buttons-container button {
+	margin-top: 0px;
+	font-family:sans-serif;
+	font-size: large;
+	background-color: black;
+	color: rgb(176, 176, 176);
+	border: none;
+	padding: 10px 20px;
+	margin-right: 10px;
+	width: 18rem;
+	height: 4rem;
+	font-weight: 100;
+}
+
+.buttons-container button:hover{
+	background-color: rgb(72, 72, 72);
+}
+
+
+
 
 
   
