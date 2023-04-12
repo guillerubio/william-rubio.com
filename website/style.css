@@ -5,17 +5,15 @@ body {
 	margin: 0;
 	background-color: rgb(176, 176, 176);
   }
-
-  /* TITLE */
   
   .container {
 	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	width: 100%;
-	margin-top: 50%;
+	margin-top: 270px;
   }
   
   .container .name {
@@ -41,24 +39,12 @@ body {
 	font-weight: bold;
   }
   
-  .underline {
+  /* Animation Engineer*/
+  .animated-underline {
 	position: relative;
 	display: inline-block;
   }
   
-  .svg-underline {
-	position: absolute;
-	bottom: -5px;
-	left: 0;
-  }
-
-
- /* Animation Engineer*/
- .animated-underline {
-	position: relative;
-	display: inline-block;
-  }
-
   .animated-underline::after {
 	content: "";
 	position: absolute;
@@ -69,9 +55,9 @@ body {
 	background-color: #d90000; /* Change this to whatever color you prefer */
 	transform: scaleX(0);
 	transform-origin: left;
-	animation: underline-anim 3s ease forwards;
+	animation: underline-anim 2.5s ease forwards;
   }
-
+  
   /* Define the keyframe animation for the underline */
   @keyframes underline-anim {
 	from {
@@ -81,3 +67,21 @@ body {
 	  transform: scaleX(1);
 	}
   }
+  
+  /* Personal paragraph */
+  .personal-paragraph {
+	font-size: 1.2rem;
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+  }
+
+  .highlight {
+    background-color: rgba(131, 131, 131, 0.391);
+}
+  
+
+
+  
