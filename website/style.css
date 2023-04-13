@@ -15,7 +15,7 @@ body {
   
   button {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: large;
+	font-size: 110%;
 	background-color: rgb(176, 176, 176);
 	color: rgb(0, 0, 0);
 	padding: 10px 5px;
@@ -42,14 +42,14 @@ body {
   }
   
   .container .name {
-	font-size: rem;
+	font-size: 150%;
 	text-align: left;
 	margin-top: 0%;
 	margin-bottom: 0px;
   }
   
   .container .name-big {
-	font-size: 600%;
+	font-size: 700%;
 	font-weight: bold;
 	text-align: left;
 	margin-top: 0%;
@@ -57,7 +57,7 @@ body {
   }
   
   .container .profession {
-	font-size: 3rem;
+	font-size: 240%;
 	text-align: left;
 	margin-top: 0%;
 	margin-bottom: 0px;
@@ -110,9 +110,9 @@ body {
 /* Resume Section*/
 .resume-section{
 font-family: Arial, Helvetica, sans-serif;
-margin-top: 30rem;
+margin-top: 26vh;
 text-align: center;
-margin-bottom: 30rem;
+margin-bottom: 18vh;
 }
 
 .resume-section h1 {
@@ -131,7 +131,6 @@ margin-bottom: 30rem;
 	margin-top: 0px;
 	display: flex;
 	justify-content: center;
-
   }
   
 .buttons-container button {
@@ -151,6 +150,101 @@ margin-bottom: 30rem;
 .buttons-container button:hover{
 	background-color: rgb(72, 72, 72);
 }
+
+/* Projects Section */
+
+.projects-section{
+	margin-bottom: 1px;
+}
+
+.projects-section p {
+	display: flex;
+	justify-content: center;
+	margin-top: 13vh;
+}
+
+.projects-section{
+	width: 100%;
+}
+
+.projects-section p {
+	margin-bottom: 10px;
+	margin-top: 5vh;
+}
+
+.projects-section .marquee {
+	height: 150px;
+	width: 1366px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 10vh;
+  }
+  
+  
+.projects-section .marquee div {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	display: block;
+	width: 200%;
+	height: 150px;
+	position: absolute;
+	overflow: hidden;
+	-webkit-animation: marquee 40s linear infinite;
+			animation: marquee 40s linear infinite;
+
+  }
+  
+.projects-section .marquee span {
+	float: left;
+	width: 50%;
+	font-size: 100px;
+	padding-top:30px;
+	letter-spacing: 2px;
+  }
+  
+ @-webkit-keyframes marquee {
+	0% { left: 0; }
+	100% { left: -100%; }
+  }
+  
+  @keyframes marquee {
+	0% { left: 0; }
+	100% { left: -100%; }
+  }
+
+  /* In Touch Section*/
+  .in-touch{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to bottom, rgb(176, 176, 176), #ffffff);
+	margin-top: 20vh;
+	width: 100%;
+	
+  }
+
+  .in-touch h1 {
+	font-size: 100px;
+	margin-top: 0px;
+  }
+
+  .in-touch p {
+	margin-right: 70%;
+	margin-bottom: 0px;
+  }
+
+  .buttons-container-contact{
+	position: relative;
+	font-size: larger;
+	margin: 0;
+	margin-bottom: 5vh;
+  }
+
+  .in-touch button {
+	font-size: 150%;
+	background: none
+  }
 
 
 
