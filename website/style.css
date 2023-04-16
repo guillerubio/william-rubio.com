@@ -155,16 +155,13 @@ margin-bottom: 18vh;
 
 .projects-section{
 	margin-bottom: 1px;
+	width: 100%;
 }
 
 .projects-section p {
 	display: flex;
 	justify-content: center;
 	margin-top: 13vh;
-}
-
-.projects-section{
-	width: 100%;
 }
 
 .projects-section p {
@@ -174,7 +171,7 @@ margin-bottom: 18vh;
 
 .projects-section .marquee {
 	height: 150px;
-	width: 1366px;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
 	margin-top: 10vh;
@@ -189,8 +186,8 @@ margin-bottom: 18vh;
 	height: 150px;
 	position: absolute;
 	overflow: hidden;
-	-webkit-animation: marquee 40s linear infinite;
-			animation: marquee 40s linear infinite;
+	-webkit-animation: marquee 30s linear infinite;
+			animation: marquee 30s linear infinite;
 
   }
   
@@ -199,7 +196,6 @@ margin-bottom: 18vh;
 	width: 50%;
 	font-size: 100px;
 	padding-top:30px;
-	letter-spacing: 2px;
   }
   
  @-webkit-keyframes marquee {
