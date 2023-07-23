@@ -1,6 +1,9 @@
 img {
-  width: 20vw;
+  width: 40vw;
+  height: 40vw;
   object-fit: cover;
+  border-radius: 50vw;
+  border: 5px solid #a41e00;
   
 }
 
@@ -14,16 +17,14 @@ img {
   
 }
 
-
-
 .heart, strong {
   color: #a41e00;
   font-size: calc(17px + 1.8vw);;
 }
+
 .container-title {
   padding: 30px;
   border-radius: 15px;
-  border: 1px solid black;
 }
 
 h1 {
