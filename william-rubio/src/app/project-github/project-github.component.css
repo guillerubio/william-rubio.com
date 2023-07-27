@@ -2,12 +2,12 @@
   padding: 20px;
   background-color: rgb(12, 14, 18);
   color: rgb(105, 114, 125);
-  height: 130px;
+  height: 110px;
   border-radius: 8px;
   border: 1px solid rgb(105, 114, 125);
-  max-width: 400px;
-  width: 300px;
+  width: 350px;
   box-shadow: 0px 0px 10px rgb(115, 115, 115);
+  position: relative;
 }
 
 .project-up {
@@ -56,8 +56,14 @@ p {
 .lan-button {
   background-color: rgb(42, 94, 148);
   color: rgb(42, 94, 148);
-  font-size: 12px;
+  font-size: 8px;
   border: 1px solid rgb(30, 94, 148);
   border-radius: 30px;
+}
+
+.project-down {
+  position: absolute;
+  bottom: 15px;
+
 }
 

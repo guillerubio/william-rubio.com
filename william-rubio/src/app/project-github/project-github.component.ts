@@ -20,6 +20,10 @@ export class ProjectGithubComponent {
       this.languageColor = "rgb(65, 42, 101)";
     } else if (this.projectLanguage == 'HTML'){
       this.languageColor = "rgb(217, 53, 29)";
+    } else if (this.projectLanguage == 'TypeScript'){
+      this.languageColor = "rgb(38, 97, 185)";
+    } else if (this.projectLanguage == 'Roff'){
+      this.languageColor = "rgb(231, 216, 176)";
     } else {
       this.languageColor = "rgb(33, 74, 130)";
     }

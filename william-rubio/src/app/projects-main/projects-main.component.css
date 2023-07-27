@@ -1,5 +1,4 @@
 .projects-main {
-  font-family: Arial;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,30 +6,31 @@
   height: fit-content;
 }
 
-
-
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #69140E;
+}
 
 .centered-container {
+  font-family: Arial;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 80vh;
+  height: fit-content;
   width: fit-content;
   max-width: 80vw;
   border-radius: 5px;
   gap:50px;
 }
 
-@media ( max-width: 860px) {
+@media ( max-width: 1006px) {
   .centered-container {
     grid-template-columns: 1fr ;
+    margin-bottom: 150px;
   }
 }
 
-@media ( min-width: 1400px) {
-  .centered-container {
-    grid-template-columns: 1fr 1fr 1fr ;
-  }
-}
+
 
 
 
