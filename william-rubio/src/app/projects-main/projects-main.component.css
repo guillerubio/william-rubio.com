@@ -1,0 +1,39 @@
+.projects-main {
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+  height: fit-content;
+}
+
+
+
+
+.centered-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  width: fit-content;
+  max-width: 80vw;
+  border-radius: 5px;
+  gap:50px;
+}
+
+@media ( max-width: 860px) {
+  .centered-container {
+    grid-template-columns: 1fr ;
+  }
+}
+
+@media ( min-width: 1400px) {
+  .centered-container {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+
+
+
+
+

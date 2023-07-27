@@ -10,6 +10,9 @@ import { ExperienceMainComponent } from './experience-main/experience-main.compo
 import { ProjectsMainComponent } from './projects-main/projects-main.component';
 import { FeaturedMainComponent } from './featured-main/featured-main.component';
 import { MiscMainComponent } from './misc-main/misc-main.component';
+import { NgIconsModule } from '@ng-icons/core';
+import { octRepo } from '@ng-icons/octicons';
+import { ProjectGithubComponent } from './project-github/project-github.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,13 @@ import { MiscMainComponent } from './misc-main/misc-main.component';
     ExperienceMainComponent,
     ProjectsMainComponent,
     FeaturedMainComponent,
-    MiscMainComponent
+    MiscMainComponent,
+    ProjectGithubComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgIconsModule.withIcons({octRepo}),
   ],
   providers: [],
   bootstrap: [AppComponent]

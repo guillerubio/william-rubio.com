@@ -1,0 +1,12 @@
+<div class="project">
+  <div class="project-up">
+    <ng-icon name="octRepo" size="22px"></ng-icon>
+    <a [href]="this.projectLink">{{ this.projectName }}</a>
+    <p>Public</p>
+  </div>
+  <p>{{ this.projectDescription }}</p>
+  <div class="project-down">
+    <p class="language"> <span [style]="'color: ' + this.languageColor + '; border-color:' + this.languageColor + '; background-color:' + this.languageColor" class="lan-button">&#11044;</span> {{ this.projectLanguage }}</p>
+  </div>
+  
+</div>
