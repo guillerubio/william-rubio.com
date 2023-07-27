@@ -69,9 +69,13 @@ button:active {
 }
 
 .icons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   margin-top: 10px;
   color: #a41e00;
   font-weight: 600;
+
 }
 
 ng-icon {
