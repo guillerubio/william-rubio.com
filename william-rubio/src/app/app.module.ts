@@ -13,6 +13,8 @@ import { MiscMainComponent } from './misc-main/misc-main.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { octRepo } from '@ng-icons/octicons';
 import { ProjectGithubComponent } from './project-github/project-github.component';
+import { bootstrapEnvelope, bootstrapEnvelopeFill, bootstrapGithub, bootstrapLinkedin } from '@ng-icons/bootstrap-icons';
+import { ionMailOpen } from '@ng-icons/ionicons';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,7 @@ import { ProjectGithubComponent } from './project-github/project-github.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({octRepo}),
+    NgIconsModule.withIcons({octRepo, bootstrapEnvelope, bootstrapLinkedin, bootstrapGithub, bootstrapEnvelopeFill, ionMailOpen}),
   ],
   providers: [],
   bootstrap: [AppComponent]

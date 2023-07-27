@@ -68,3 +68,14 @@ button:active {
   opacity: 0.5;
 }
 
+.icons {
+  margin-top: 10px;
+  color: #a41e00;
+  font-weight: 600;
+}
+
+ng-icon {
+  size: 100px;
+  margin: 10px 10px;
+}
+
