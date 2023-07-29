@@ -21,3 +21,9 @@ li {
   margin-bottom: 20px;
   font-weight: 400;
 }
+
+@media(max-width:700px) {
+  .centered {
+    padding: 5vw;
+  }
+}

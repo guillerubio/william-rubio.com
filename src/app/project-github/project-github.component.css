@@ -67,3 +67,13 @@ p {
 
 }
 
+@media(max-width:700px) {
+  .project {
+    width: 70vw;
+    height: fit-content;
+  }
+  p{
+    margin-bottom: 24px;
+  }
+}
+
