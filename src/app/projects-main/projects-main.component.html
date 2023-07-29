@@ -1,0 +1,11 @@
+<div class="projects-main">
+  <div class="column-projects">
+    <h1>Pinned Projects</h1>
+    <div class="centered-container">
+        <project-github *ngFor="let project of projects" [projectName]="project.projectName" [projectLink]="project.projectLink" [projectDescription]="project.projectDescription" [projectLanguage]="project.projectLanguage"></project-github>
+        
+
+    </div>
+    <a href="https://github.com/guillerubio" class="profile-link">All projects & technologies &gt;</a>
+  </div>  
+</div>
