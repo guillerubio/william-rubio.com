@@ -151,6 +151,10 @@ ng-icon:active {
     height: 7vh;
   }
 
+  a {
+    color: black;
+  }
+
   .buttons #featured-in {
     min-width: 0px;
   }
