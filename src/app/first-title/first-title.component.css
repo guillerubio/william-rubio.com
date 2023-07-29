@@ -64,15 +64,7 @@ button {
   min-width: 150px;
 }
 
-button:hover {
-  font-size: calc(15px + 2vw);;
-  background-color: #a41e00;
-  color: white;
-}
 
-button:active {
-  opacity: 0.5;
-}
 
 .icons {
   display: flex;
@@ -115,6 +107,18 @@ ng-icon:active {
 
 }
 
+@media(min-width:700px) {
+  button:hover {
+    font-size: calc(15px + 2vw);;
+    background-color: #a41e00;
+    color: white;
+  }
+  
+  button:active {
+    opacity: 0.5;
+  }
+}
+
 @media(max-width:700px) {
 
   .container-title {
@@ -136,6 +140,7 @@ ng-icon:active {
     min-width: 0px;
     height: fit-content;
     margin: 20px 5vw;
+    color: black;
   }
 
   button {
@@ -144,7 +149,6 @@ ng-icon:active {
     margin-bottom: 10px;
     font-size: 5vw;
     height: 7vh;
-
   }
 
   .buttons #featured-in {
