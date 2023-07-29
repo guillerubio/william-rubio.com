@@ -1,0 +1,23 @@
+.misc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: #69140E;
+
+}
+
+.centered {
+  width: 80vw;
+  height: fit-content;
+  padding: 40px;
+  border: 2px solid #69140E;
+  box-shadow: 0px 0px 10px rgb(203, 203, 203);
+
+}
+
+li {
+  margin-bottom: 20px;
+  font-weight: 400;
+}

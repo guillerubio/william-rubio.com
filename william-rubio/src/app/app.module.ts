@@ -13,8 +13,11 @@ import { MiscMainComponent } from './misc-main/misc-main.component';
 import { NgIconsModule } from '@ng-icons/core';
 import { octRepo } from '@ng-icons/octicons';
 import { ProjectGithubComponent } from './project-github/project-github.component';
-import { bootstrapEnvelope, bootstrapEnvelopeFill, bootstrapGithub, bootstrapLinkedin } from '@ng-icons/bootstrap-icons';
+import { bootstrapEnvelope, bootstrapEnvelopeFill, bootstrapEnvelopeOpenFill, bootstrapGithub, bootstrapLinkedin } from '@ng-icons/bootstrap-icons';
 import { ionMailOpen } from '@ng-icons/ionicons';
+import { heroEnvelopeOpenSolid } from '@ng-icons/heroicons/solid'
+import { featherGithub, featherLinkedin, featherMail } from '@ng-icons/feather-icons';
+import { AstrophotoComponent } from './astrophoto/astrophoto.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +29,16 @@ import { ionMailOpen } from '@ng-icons/ionicons';
     ProjectsMainComponent,
     FeaturedMainComponent,
     MiscMainComponent,
-    ProjectGithubComponent
+    ProjectGithubComponent,
+    AstrophotoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({octRepo, bootstrapEnvelope, bootstrapLinkedin, bootstrapGithub, bootstrapEnvelopeFill, ionMailOpen}),
+    NgIconsModule.withIcons({octRepo, bootstrapEnvelope, bootstrapLinkedin, bootstrapGithub, 
+      bootstrapEnvelopeFill, bootstrapEnvelopeOpenFill, heroEnvelopeOpenSolid,
+      featherMail, featherLinkedin, featherGithub
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]
