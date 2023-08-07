@@ -1,10 +1,12 @@
 .astrophoto{
-  width: 100vw;
+  width: 92.3vw;
   height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 0px;
+  margin: 20px 0px;
+
 }
 
 img{
@@ -16,7 +18,7 @@ img{
 h3 {
   font-weight: 300;
   font-size: 18px;
-  width: 80vw;
+  
 }
 
 .post {
@@ -28,10 +30,17 @@ h3 {
 }
 
 @media (max-width: 700px) {
-  .astrophoto {
-    padding: 3vw;
-  }
   .post {
-    padding: 2vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  h3 {
+    width: 70vw;
+  }
+  img {
+    width: 70vw;
+  }
+  
 }
