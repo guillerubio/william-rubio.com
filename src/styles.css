@@ -1,6 +1,9 @@
-html, body {
-  overflow-x: hidden;
+@media (max-width: 700px) {
+  html, body {
+    overflow-x: hidden;
+  }
 }
+
 
 body {
   margin: 0;
