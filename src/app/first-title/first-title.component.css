@@ -107,6 +107,10 @@ ng-icon:active {
 
 }
 
+.icons-phone {
+  display: none;
+}
+
 @media(min-width:700px) {
   button:hover {
     font-size: calc(15px + 2vw);;
@@ -117,9 +121,20 @@ ng-icon:active {
   button:active {
     opacity: 0.5;
   }
+
+
 }
 
 @media(max-width:700px) {
+
+  .icons-phone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons {
+    display: none;  
+  }
 
   .container-title {
     width: 100vw;
