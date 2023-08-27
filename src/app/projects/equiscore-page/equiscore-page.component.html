@@ -1,0 +1,49 @@
+<div class="equiscore-page">
+  <div class="rest-projects">
+    <a [routerLink]="'/'">&lt; Back home</a>
+  </div>
+  <h1>Equiscore</h1>
+  <h2>March 2023</h2>
+  <p class="introduction">Equiscore is a neural network that can analyze pictures of horses and automatically assign a Body Condition Score (BCS). The system is able to detect dangerously thin horses.</p>
+  <div class="idea">
+    <p>
+      The elegance of neural networks and the calculus behind them seems one of the most logical paths to building solutions to a lot of real-world problems. 
+      One of these problems is a significant issue concerning feral horses. While they may appear to live in unrestricted environments, their habitats are limited to what humans allow. In certain circumstances, such as overcrowding, fire, or harsh weather conditions, there may be little grass available and starvation is a reality. Another challenge is finding the horses when the plots of land are so large that the horses cannot be easily located to evaluate their nutritional status. 
+      Don Henneke, a researcher from the University of Texas, developed a methodology called Body Condition Scoring (BCS) to objectively assess fat deposits in horses and thus provide an initial interpretation of their nutritional status. 
+      With this in mind, I came up with the idea to build a neural network that could analyze pictures of horses and automatically assign a Body Condition Score (BCS). The system would be able to detect dangerously thin horses. 
+      Possibly in the future, this deep learning model could be paired with drone or satellite technology to pinpoint the animals' locations. Consequently, land managers could assess their nutritional needs and supply them with the appropriate feedstuffs.
+    </p>
+    <img src="assets/projects/equiscore/Captura+de+pantalla+2023-02-24+a+las+9.57.35.png">
+  </div>
+  
+  <div class="development">
+    <div>
+      <p>I developed this project entirely on python, as it’s a widely used language in machine learning and has many libraries that make it easier to build neural networks. After researching various libraries, I  decided to use TensorFlow for my project. I had heard great things about TensorFlow, and I wanted to leverage its capabilities to build my neural network for image analysis. I also used PyCharm CE as the main IDE for this project.</p>
+    </div>
+    <div><img src="assets/projects/equiscore/Captura+de+pantalla+2023-02-16+a+las+22.26.55.png"></div>
+
+  </div>
+  <div class="works">
+    <p>The model builder creates neural networks with 4 convolutional layers, followed by a flattening layer and 2 fully connected layers. The model is used for image classification tasks and takes 256x256 pixel images with 3 color channels as input. The default deep-learning model of the project has been trained with over 300 images distributed across every condition score. And it has shown a correct reduction of loss and increase in accuracy with both the validation and training data sets throughout the training. </p>
+    <div class="works-images">
+      <img class="f1" src="assets/projects/equiscore/Captura+de+pantalla+2023-03-30+a+las+20.09.05.png">
+      <img class="f2" src="assets/projects/equiscore/Captura+de+pantalla+2023-03-30+a+las+20.08.57.png">
+    </div>
+    
+  </div>
+  <div class="gui">
+    <p>I decided to make the project more user-oriented by creating a graphical user interface. The GUI was not only for classifying horses, but it was also designed so that anyone could train their own models, and make the model better at scoring horses. With the right amount of data and training, this artificial intelligence could create a new, less subjective standard for the first health indicator in horses, their body condition score.</p>
+    <div class="gui-images">
+      <div><img src="assets/projects/equiscore/Captura+de+pantalla+2023-03-30+a+las+20.24.43.png"></div>
+      <div><img src="assets/projects/equiscore/Captura+de+pantalla+2023-03-30+a+las+20.24.45.png"></div>
+      <div><img src="assets/projects/equiscore/Captura+de+pantalla+2023-03-30+a+las+20.24.47.png"></div>
+      <div><img src="assets/projects/equiscore/Captura+de+pantalla+2023-03-30+a+las+20.24.49.png"></div>
+    </div>
+  </div>
+
+  <p class="pd">
+    With the help of equine specialist, we are gathering data to create a new more precise model. Big thank you to the people involved! Coby J. Bolger (Horse1), Diego Paul Bonel Ayuso (Facultad de Veterinaria, Universidad Complutense de Madrid).
+  </p>
+
+  
+</div>

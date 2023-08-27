@@ -18,6 +18,8 @@ import { ionMailOpen } from '@ng-icons/ionicons';
 import { heroEnvelopeOpenSolid } from '@ng-icons/heroicons/solid'
 import { featherGithub, featherLinkedin, featherMail } from '@ng-icons/feather-icons';
 import { AstrophotoComponent } from './astrophoto/astrophoto.component';
+import { EquiscorePageComponent } from './projects/equiscore-page/equiscore-page.component';
+import { PortfolioWebsiteComponent } from './projects/portfolio-website/portfolio-website.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { AstrophotoComponent } from './astrophoto/astrophoto.component';
     FeaturedMainComponent,
     MiscMainComponent,
     ProjectGithubComponent,
-    AstrophotoComponent
+    AstrophotoComponent,
+    EquiscorePageComponent,
+    PortfolioWebsiteComponent
   ],
   imports: [
     BrowserModule,

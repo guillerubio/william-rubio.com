@@ -1,0 +1,131 @@
+.equiscore-page {
+  position: relative;
+}
+
+.rest-projects {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #69140E;
+}
+
+.rest-projects a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #69140E;
+}
+
+.rest-projects a:hover {
+  text-decoration: underline;
+}
+
+.rest-projects a:active {
+  opacity: 0.5;
+}
+
+.rest-projects {
+  width: max-content;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+}
+
+img {
+  margin: 20px 0px;
+  max-width: 500px;
+  width: 70vw;
+  object-fit: contain;
+}
+
+p {
+  padding: 0px 40px;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+  color:#69140E;
+  margin-bottom: 5px;
+  margin-top: 60px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+.introduction {
+  font-weight: 500;
+}
+
+.f1, .f2 {
+ margin: 0;
+}
+
+@media (min-width: 1000px) {
+  .idea {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+  }
+
+  .introduction, .development p, .works p, .gui p, .pd{
+    padding: 0px calc(5vw + 40px);
+  }
+
+  .idea p {
+    display: inline;
+  }
+
+  img {
+    max-width: 50vw;
+  }
+
+  .idea img {
+    max-width: 30vw;
+  }
+
+  .works-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70vw;
+    align-items:start;
+  }
+
+  .f1 {
+    height: 45vh
+  }
+
+  .f2 {
+    height: 43vh;
+    margin-top: 0.6vh;
+  }
+
+  .gui img {
+    max-width: 30vw;
+    
+  }
+
+  .gui-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+  }
+
+  .gui-images div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  
+}
+

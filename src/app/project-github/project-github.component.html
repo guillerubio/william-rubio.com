@@ -8,5 +8,5 @@
   <div class="project-down">
     <p class="language"> <span [style]="'color: ' + this.languageColor + '; border-color:' + this.languageColor + '; background-color:' + this.languageColor" class="lan-button">---</span> {{ this.projectLanguage }}</p>
   </div>
-  
+  <a *ngIf="projectPage!=''" class="see-more" [routerLink]="projectPage" >More about this project &gt;</a>
 </div>
