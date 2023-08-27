@@ -66,6 +66,24 @@ h2 {
  margin: 0;
 }
 
+.gh {
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #69140E;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.gh:hover {
+  text-decoration: underline;
+}
+
+.gh:active {
+  opacity: 0.5;
+}
+
 @media (min-width: 1000px) {
   .idea {
     display: flex;
@@ -123,6 +141,8 @@ h2 {
     justify-content: center;
     align-items: center;
   }
+
+
 
 
 
