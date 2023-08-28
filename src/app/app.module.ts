@@ -20,6 +20,7 @@ import { featherGithub, featherLinkedin, featherMail } from '@ng-icons/feather-i
 import { AstrophotoComponent } from './astrophoto/astrophoto.component';
 import { EquiscorePageComponent } from './projects/equiscore-page/equiscore-page.component';
 import { PortfolioWebsiteComponent } from './projects/portfolio-website/portfolio-website.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -39,12 +40,15 @@ import { PortfolioWebsiteComponent } from './projects/portfolio-website/portfoli
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgIconsModule.withIcons({octRepo, bootstrapEnvelope, bootstrapLinkedin, bootstrapGithub, 
+    NgIconsModule.withIcons({
+      octRepo, bootstrapEnvelope, bootstrapLinkedin, bootstrapGithub,
       bootstrapEnvelopeFill, bootstrapEnvelopeOpenFill, heroEnvelopeOpenSolid,
       featherMail, featherLinkedin, featherGithub
     }),
   ],
-  providers: [],
+  providers: [
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
